@@ -1,14 +1,11 @@
 import React, { Component } from 'react'
 
-import Loading from 'components/Loading'
+import './global-styles'
+import FoodBlogEditor from 'containers/FoodBlogEditor'
 
 export class App extends Component {
   render() {
-    return (
-      <div>
-        <Loading />
-      </div>
-    )
+    return <FoodBlogEditor />
   }
 }
 

@@ -1,11 +1,7 @@
 import styled from 'styled-components'
-import theme from 'utils/theme'
+import theme from 'theme'
 
 const LoadingWrapper = styled.div`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   z-index: 1046;
 
   .circular {

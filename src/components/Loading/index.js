@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { LoadingWrapper, Loader } from './style';
+import { LoadingWrapper, Loader } from './style'
 
 const Loading = ({ size }) => (
-  <LoadingWrapper>
+  <LoadingWrapper className="button">
     <Loader className="loader" size={size}>
       <svg className="circular" viewBox="25 25 50 50">
         <circle
